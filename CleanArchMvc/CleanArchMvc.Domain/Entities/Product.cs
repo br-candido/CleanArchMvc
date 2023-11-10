@@ -13,7 +13,7 @@ namespace CleanArchMvc.Domain.Entities
         public string Description { get; private set; }
         public decimal Price { get; private set; }
         public int Stock { get; private set; }
-        public string Image { get; private set; }
+        public string? Image { get; private set; }
 
         public int CategoryId { get; private set; }
         public Category Category { get; private set; }
@@ -25,13 +25,13 @@ namespace CleanArchMvc.Domain.Entities
             DomainExceptionValidation.When(name.Length > 30, "Invalid name. Name should be at most 30 characters long.");
 
             DomainExceptionValidation.When(string.IsNullOrEmpty(description), "Invalid description. description is required.");
-            DomainExceptionValidation.When(description.Length < 5, "Invalid description. description should be at least 3 characters long.");
+            DomainExceptionValidation.When(description.Length < 5, "Invalid description. description should be at least 5 characters long.");
 
             DomainExceptionValidation.When(price < 0, "Invalid Price Value");
 
             DomainExceptionValidation.When(stock < 0, "Invalid stock Value");
 
-            DomainExceptionValidation.When(image.Length > 250, "Invalid Image. Image should be at most 250 characters long.");
+            DomainExceptionValidation.When(image?.Length > 250, "Invalid Image. Image should be at most 250 characters long.");
 
             Name = name;
             Description = description;
@@ -45,7 +45,7 @@ namespace CleanArchMvc.Domain.Entities
             ValidateDomain(name, description, price, stock, image);
         }
 
-        public Product(int id, string name, string description, decimal price, int stock, string image)
+        public Product(int id, string name, string description, decimal price, int stock, string? image)
         {
             DomainExceptionValidation.When(id < 0, "Id Invalid.");
             Id = id;

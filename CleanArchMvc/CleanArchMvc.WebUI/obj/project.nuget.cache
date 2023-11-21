@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "SMZLaM7dkCwg2WGefog5bkZcuAr1xW0fjMGZyQSO1CyKq2ZbLUtPHM0EnSp2wHgnZ8E8fDQdMHs/f1ilzyBglg==",
+  "dgSpecHash": "PoYtK28k1miW7iK0f2354eGIhtA4lcJxc1V3Udf2y1URoeZ/h8m8kWossMdw0F4xf/4V0LvxxiClaUAYbDh+tQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Documents\\CleanArchitecture\\CleanArchMvc\\CleanArchMvc\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.13\\microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.13\\microsoft.entityframeworkcore.analyzers.7.0.13.nupkg.sha512",

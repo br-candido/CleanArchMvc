@@ -12,6 +12,8 @@ namespace CleanArchMvc.Infra.Data.Context
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
+        public ApplicationDbContext() { }
+
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }   
 

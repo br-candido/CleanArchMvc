@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "04fwayPSffY5gNpIQvyQHN/a7NzZ9CjDC9ggelGqSpaHTB3X9b+ey9o/V9bjKqni7FX+bOoPmWyaHwIervAFIw==",
+  "dgSpecHash": "/JGrH7blS/4t3nPExpjtlzSU5VCHr3cqzRq1Sj6cBkm4Tdba5NRlL+zv+lGGHJrSnQFNFisu3WtD3bLIS2G6bg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Documents\\CleanArchitecture\\CleanArchMvc\\CleanArchMvc\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
